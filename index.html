@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="javascript.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Raad de vlag</title>
+</head>
+<body>
+    <!-- titel van de game -->
+    <h1>RAAD DE VLAG</h1>
+
+    <!-- afbeelding vlag -->
+    <img src="images/duitsland.png" alt="vlag duitsland" width="250" height="150">
+
+    <!-- input field om je antwoord in aan te geven en te laten controleren -->
+    <form id="answerVeld">
+        <label for="answerInput">Bij deze vlag hoort dit land:</label><br><br>
+        <input type="text" id="answerInput" name="answerInput" required>
+        <button type="submit">Verzenden</button>
+    </form>
+    <div id="feedback" class="feedback"></div>
+
+    <!-- audio button -->
+    <button id = "play" > play </button> 
+
+</body>
+</html>
